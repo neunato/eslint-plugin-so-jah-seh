@@ -173,7 +173,7 @@ module.exports = {
 
             // STYLISTIC ISSUES
 
-            "array-bracket-newline": [2],
+            "array-bracket-newline": [2, "consistent"],
             "array-bracket-spacing": [2],
             "array-element-newline": [2, "consistent"],
             "block-spacing": [2],
