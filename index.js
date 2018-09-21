@@ -197,7 +197,7 @@ module.exports = {
             "implicit-arrow-linebreak": [2],
             "indent": [2, 3],
             // "jsx-quotes": [2],
-            "key-spacing": [2],
+            "key-spacing": [2, { "mode": "minimum" }],
             "keyword-spacing": [2],
             // "line-comment-position": [2],
             "linebreak-style": [2],
