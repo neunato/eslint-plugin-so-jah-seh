@@ -6,7 +6,7 @@ module.exports = {
 
          parserOptions: {
             "ecmaVersion": 8,
-            "sourceType": "script"
+            "sourceType": "module"
          },
 
          env: {
@@ -129,7 +129,7 @@ module.exports = {
             "no-with": [2],
             "prefer-promise-reject-errors": [2],
             "radix": [2, "as-needed"],
-            "require-await": [2],
+            // "require-await": [2],
             // "require-unicode-regexp": [2],
             // "vars-on-top": [2],
             "wrap-iife": [2, "inside"],
@@ -238,7 +238,7 @@ module.exports = {
             "no-whitespace-before-property": [2],
             "nonblock-statement-body-position": [2, "below"],
             "object-curly-newline": [2, { "consistent": true }],
-            "object-curly-spacing": [2, "always"],
+            // "object-curly-spacing": [2, "never"],
             "object-property-newline": [2, { "allowAllPropertiesOnSameLine": true }],
             "one-var": [2, "never"],
             // "one-var-declaration-per-line": [2],
@@ -288,7 +288,7 @@ module.exports = {
             "no-var": [2],
             "object-shorthand": [2, "always", { "avoidQuotes": true }],
             "prefer-arrow-callback": [2],
-            "prefer-const": [2],
+            // "prefer-const": [2],
             "prefer-destructuring": [2],
             "prefer-numeric-literals": [2],
             "prefer-rest-params": [2],
